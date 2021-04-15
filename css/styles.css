@@ -251,13 +251,13 @@ body::after {
 .door-out {
     position: absolute;
     display: none;
-    height: 20vw;
-    width: 20vw;
-    top: 60%;
+    height: 10vw;
+    width: 10vw;
+    bottom: 10%;
     left: 50%;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    background-position: bottom ;
     animation: heart-beat 2s linear 0s infinite alternate;
 }
 

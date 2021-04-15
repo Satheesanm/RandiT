@@ -40,7 +40,7 @@ let readMsg = (text) => {
                 document.querySelector(".btn-ref").style.display = "block";
             }
     
-        },6000*i);
+        },5000*i);
         
     }
 };
@@ -51,7 +51,6 @@ let transition = (currentScene) => {
     currentScene.classList.add("fade-in");
     currentScene.style.opacity = "0";
     button.style.display = "none";
-    document.querySelector(".btn-ref").style.display = "none";       
     document.querySelector(".btn-ref").style.display = "none";       
 };
 
@@ -85,7 +84,7 @@ button.addEventListener("click",function(){
             button.classList.remove("switch");
             blackbox.style.display = "none";
             readMsg(roomText); 
-        },5000);
+        },7000);
     }
 
     else if(button.classList.contains("door-out")) {
@@ -104,7 +103,7 @@ button.addEventListener("click",function(){
             button.classList.remove("door-out");
             room.style.display = "none";
             readMsg(hallText); 
-        },5000);
+        },4000);
     }
 
     else if(button.classList.contains("door-in")) {
@@ -122,7 +121,7 @@ button.addEventListener("click",function(){
             button.classList.remove("door-in");
             hallway.style.display = "none";
             readMsg(giftText);
-        },5000);
+        },7000);
     }
 
     else if(button.classList.contains("gift")) {
@@ -147,24 +146,24 @@ button.addEventListener("click",function(){
             frames[1].classList.add("appear");
             frames[1].style.opacity = "1";
             msg.classList.add("move-up");
-        },2500);
+        },1500);
 
         setTimeout(() => {
             msg.style.transform = "translateY(-100%)";
             whitebox.style.display = "none";
-        },6000);
+        },5000);
 
         setTimeout(() => {
             document.querySelector(".text-frame").classList.add("fade-in");
             document.querySelector(".text-frame").style.opacity = '0';
-        },98000);
+        },88000);
 
         setTimeout(() => {
             frames[1].style.display = "none";
             frames[0].style.display = "block";
             frames[0].classList.add("appear");
             frames[0].style.opacity = "1";
-        },101000);
+        },91000);
 
     }
 
