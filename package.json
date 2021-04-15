@@ -1,0 +1,15 @@
+{
+  "name": "Api ma",
+  "version": "1.0.0",
+  "description": "This is a template for a birthday card. In this version an additional haunted hallway scene has been added. **Only mobile portrait view is available.** </br>",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage":"https://satheesanm.github.io/Apima/",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
