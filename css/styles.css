@@ -76,8 +76,8 @@ body::after {
 
 .balloon{
     position: absolute;
-    height: 60vh;
-    width: 90vw;
+    height: 50vh;
+    width: 70vw;
     top: -2%;
     
 }
@@ -85,7 +85,7 @@ body::after {
 .balloon-left {
     left: -45%;
     background-image: url("../resources/img/SVG/Asset\ 4.svg");
-    background-size: 30%;
+    background-size: 20%;
     background-position: top right;
     content: ".";
     background-repeat: repeat;
@@ -95,7 +95,7 @@ body::after {
 .balloon-right {
     right: -45%;
     background-image: url("../resources/img/SVG/Asset\ 6.svg");
-    background-size: 30%;
+    background-size: 20%;
     background-position: top left;
     content: ".";
     background-repeat: repeat;
